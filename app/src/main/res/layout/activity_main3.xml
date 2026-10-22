@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F6FC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="4dp"
+            android:text="‹  Nearby Facilities"
+            android:textColor="#123B66"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Choose a destination inside the mall."
+            android:textColor="#66788D"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:background="#FFFFFF"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:text="🚻   Restroom\n       Washrooms and toilets"
+            android:textColor="#123B66"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="12dp"
+            android:background="#FFFFFF"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:text="☪   Prayer Room / Qibla\n       Prayer area and direction"
+            android:textColor="#123B66"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="12dp"
+            android:background="#FFFFFF"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:text="🚪   Emergency Exit\n       Safety exit points"
+            android:textColor="#123B66"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="12dp"
+            android:background="#FFFFFF"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:text="ⓘ   Help Desk / Lost &amp; Found\n       Get assistance"
+            android:textColor="#123B66"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnFacilityRoute"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="22dp"
+            android:text="GET ROUTE"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#075DBB" />
+
+    </LinearLayout>
+</ScrollView>
